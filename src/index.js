@@ -3,7 +3,7 @@ import { ActivityIndicator, StyleSheet, View, SafeAreaView, StatusBar } from 're
 import { Header } from './components';
 import colors from './constants/colors';
 import { Game, StartGame, GameOver } from './screens/index';
-import { useFonts } from 'expo-font';
+import { useFonts } from 'expo-font'; 
 
 export default function App() {
   const [loaded] = useFonts({
